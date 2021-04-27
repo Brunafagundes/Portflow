@@ -31,7 +31,7 @@ header img {
     padding-top: 160px;
     padding-left: 8%;
     font-weight: 0.8;
-    line-height: 2;
+    line-height: 2;                     
 }
 .banner h1 {
     font-size: 3em;
@@ -41,3 +41,21 @@ header img {
    font-size: 1em;
    color:aliceblue;
 }
+
+section img {
+ width: 250px;
+
+}
+
+section {
+    display: flex;
+     width: 1080px;
+    flex-wrap: wrap;
+    margin: 4% auto;
+}
+
+section img {
+    width: 250px;
+    height: 250px;
+    margin: 8px;
+} 
