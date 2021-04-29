@@ -49,7 +49,7 @@ section img {
 
 section {
     display: flex;
-     width: 1080px;
+    width: 1080px;
     flex-wrap: wrap;
     margin: 4% auto;
 }
@@ -59,3 +59,35 @@ section img {
     height: 250px;
     margin: 8px;
 } 
+
+footer {
+    padding: 2% 16%;
+    background-color: rgb(145, 145, 145);
+    color: rgb(24, 24, 24);
+}
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1080px;
+}
+
+
+.social {
+    display: inline-block;
+}
+.social img {
+    margin: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.copyright span {
+    margin-right: 16px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.copyright {
+    padding-right: 140px;
+    font-size: 0.8em;
+}
